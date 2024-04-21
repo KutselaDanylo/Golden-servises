@@ -1,0 +1,107 @@
+:root{
+    --first-color:#FED136;
+    --second-color:#222222;
+    --third-color:#777777;
+    --decorativ-color:#FFFFFF;
+}
+.container{
+    max-width: 964px;
+    padding: 0 15;
+    margin: 0 auto;
+    font-family: Montserrat;
+}
+ul{
+    list-style-type: none;
+}
+.header-sektion{
+    padding-top: 57px;
+    max-width: 934px;
+    max-height: 34px;
+    display: flex;
+    gap: 310px;
+    margin-bottom: 130px;
+}
+.header-ul{
+    font-family: Bilbo Swash Caps;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    color: var(--first-color);
+}
+.ul-header{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--first-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 40px;
+}
+.main-class{
+    max-width: 934px;
+}
+.h1-class{
+    color: var(--second-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+.flex-ul{
+    max-width: 274px;
+}
+.ul-class{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.img-class{
+    padding-left: 115px;
+    padding-bottom: 20px;
+}
+h3{
+    font-size: 14px;
+    line-height: 16.41px;
+    text-align: center;
+}
+.p{
+    text-align: center;
+    font-family: RobotoSlab;
+    font-size: 14px;
+    line-height: 16.41px; 
+    font-family: RobotoSlab;
+    color: var(--third-color);
+}
+footer{
+    background-color: var(--second-color);
+}
+h1{
+    text-align: center;
+    color: var(--decorativ-color);
+}
+.footer-section{
+    max-width: 934px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .class-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+    }
+.button{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    color: var(--decorativ-color);
+    background-color: var(--first-color);
+    padding: 20px 45px 30px 45px;
+    margin-left: 350px;
+}
